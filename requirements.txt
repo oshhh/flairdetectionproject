@@ -1,6 +1,5 @@
 flask
 praw
-re
 string
 nltk
 sklearn
