@@ -1,7 +1,8 @@
 from flask import Flask, request, render_template
 from praw import Reddit
 from praw.models import Submission
-
+import nltk
+nltk.download('wordnet')
 
 app = Flask(__name__)
 
