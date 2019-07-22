@@ -82,3 +82,6 @@ def getFlair(text):
 	predicted_flair = None
 	flairs = ['AskIndia', 'Business/Finance', 'Food', 'Photography', 'Policy/Economy', 'Politics', 'Science/Technology', 'Sports', '[R]eddiquette']
 	return flairs[prediction[0]], flair
+
+if __name__ == '__main__':
+    app.run()
