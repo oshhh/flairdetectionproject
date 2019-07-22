@@ -1,0 +1,20 @@
+<html>
+	<form action = "http://localhost:5000/dataanalysis" method="GET">
+		<p style="font-family:verdana;text-align:center;"><input type = "submit" value = "Data Analysis" /></p>
+	</form>
+	<form action = "http://localhost:5000/modelv1" method="GET">
+		<p style="font-family:verdana;text-align:center;"><input type = "submit" value = "Model V1 Analysis" /></p>
+	</form>
+	<form action = "http://localhost:5000/modelv2" method="GET">
+		<p style="font-family:verdana;text-align:center;"><input type = "submit" value = "Model V2 Analysis" /></p>
+	</form>
+	<br><br><br><br><br><br><br><br><br>
+	<h1 style="font-family:'Courier New';text-align:center;">Reddit Flair Predictor</h1>
+   	<body>
+   		<p style="font-family:verdana;text-align:center;"> Predicted Flair : {{ predicted_flair }} </p>
+   		<p style="font-family:verdana;text-align:center;"> Real Flair : {{ real_flair }} </p>
+      	<form action = "http://localhost:5000/" method = "GET">
+        	<p style="font-family:verdana;text-align:center;"><input type = "submit" value = "Query Again" /></p>
+      	</form>
+   	</body>
+</html>

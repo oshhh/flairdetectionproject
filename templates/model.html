@@ -1,0 +1,748 @@
+<html>
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:30.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:30.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_008{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="8a415c02-ac4d-11e9-9d71-0cc47a792c0a_id_8a415c02-ac4d-11e9-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<form action = "http://localhost:5000/" method = "GET">
+	<p style="font-family:verdana;text-align:left;"><input type = "submit" value = "Back to Query" /></p>
+</form>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background1.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:53.00px" class="cls_002"><span class="cls_002">Model V1</span></div>
+<div style="position:absolute;left:57.00px;top:106.00px" class="cls_003"><span class="cls_003">Input Data:</span></div>
+<div style="position:absolute;left:61.00px;top:146.00px" class="cls_004"><span class="cls_004">Class</span></div>
+<div style="position:absolute;left:201.00px;top:146.00px" class="cls_004"><span class="cls_004">Data</span></div>
+<div style="position:absolute;left:61.00px;top:168.00px" class="cls_004"><span class="cls_004">AskIndia</span></div>
+<div style="position:absolute;left:202.00px;top:169.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:191.00px" class="cls_004"><span class="cls_004">Business/Finance</span></div>
+<div style="position:absolute;left:202.00px;top:191.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:214.00px" class="cls_004"><span class="cls_004">Food</span></div>
+<div style="position:absolute;left:202.00px;top:214.00px" class="cls_005"><span class="cls_005">~1000</span></div>
+<div style="position:absolute;left:61.00px;top:237.00px" class="cls_004"><span class="cls_004">Non-political</span></div>
+<div style="position:absolute;left:202.00px;top:237.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:259.00px" class="cls_004"><span class="cls_004">Photography</span></div>
+<div style="position:absolute;left:202.00px;top:259.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:282.00px" class="cls_004"><span class="cls_004">Policy/Economy</span></div>
+<div style="position:absolute;left:202.00px;top:282.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:305.00px" class="cls_004"><span class="cls_004">Politics</span></div>
+<div style="position:absolute;left:202.00px;top:305.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:328.00px" class="cls_004"><span class="cls_004">Science/Technology</span></div>
+<div style="position:absolute;left:202.00px;top:328.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:350.00px" class="cls_004"><span class="cls_004">Sports</span></div>
+<div style="position:absolute;left:202.00px;top:350.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:373.00px" class="cls_004"><span class="cls_004">[R]eddiquette</span></div>
+<div style="position:absolute;left:202.00px;top:373.00px" class="cls_005"><span class="cls_005">~1500</span></div>
+<div style="position:absolute;left:61.00px;top:396.00px" class="cls_004"><span class="cls_004">TOTAL</span></div>
+<div style="position:absolute;left:202.00px;top:396.00px" class="cls_005"><span class="cls_005">~14500</span></div>
+<div style="position:absolute;left:57.00px;top:460.00px" class="cls_003"><span class="cls_003">Classification report</span></div>
+<div style="position:absolute;left:57.00px;top:495.00px" class="cls_006"><span class="cls_006">MultinomialNB</span></div>
+<div style="position:absolute;left:57.00px;top:510.00px" class="cls_007"><span class="cls_007">training accuracy : 0.7469648071307823</span></div>
+<div style="position:absolute;left:57.00px;top:525.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.5453333333333333</span></div>
+<div style="position:absolute;left:107.60px;top:540.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:570.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:570.00px" class="cls_007"><span class="cls_007">0.30</span></div>
+<div style="position:absolute;left:176.26px;top:570.00px" class="cls_007"><span class="cls_007">0.88</span></div>
+<div style="position:absolute;left:223.24px;top:570.00px" class="cls_007"><span class="cls_007">0.45</span></div>
+<div style="position:absolute;left:273.84px;top:570.00px" class="cls_007"><span class="cls_007">161</span></div>
+<div style="position:absolute;left:96.75px;top:585.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:585.00px" class="cls_007"><span class="cls_007">0.74</span></div>
+<div style="position:absolute;left:176.26px;top:585.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:223.24px;top:585.00px" class="cls_007"><span class="cls_007">0.68</span></div>
+<div style="position:absolute;left:273.84px;top:585.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:96.75px;top:600.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:600.00px" class="cls_007"><span class="cls_007">0.89</span></div>
+<div style="position:absolute;left:176.26px;top:600.00px" class="cls_007"><span class="cls_007">0.31</span></div>
+<div style="position:absolute;left:223.24px;top:600.00px" class="cls_007"><span class="cls_007">0.46</span></div>
+<div style="position:absolute;left:273.84px;top:600.00px" class="cls_007"><span class="cls_007">104</span></div>
+<div style="position:absolute;left:96.75px;top:615.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:615.00px" class="cls_007"><span class="cls_007">0.34</span></div>
+<div style="position:absolute;left:176.26px;top:615.00px" class="cls_007"><span class="cls_007">0.20</span></div>
+<div style="position:absolute;left:223.24px;top:615.00px" class="cls_007"><span class="cls_007">0.25</span></div>
+<div style="position:absolute;left:273.84px;top:615.00px" class="cls_007"><span class="cls_007">134</span></div>
+<div style="position:absolute;left:96.75px;top:630.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:630.00px" class="cls_007"><span class="cls_007">0.79</span></div>
+<div style="position:absolute;left:176.26px;top:630.00px" class="cls_007"><span class="cls_007">0.65</span></div>
+<div style="position:absolute;left:223.24px;top:630.00px" class="cls_007"><span class="cls_007">0.71</span></div>
+<div style="position:absolute;left:273.84px;top:630.00px" class="cls_007"><span class="cls_007">164</span></div>
+<div style="position:absolute;left:96.75px;top:645.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:645.00px" class="cls_007"><span class="cls_007">0.54</span></div>
+<div style="position:absolute;left:176.26px;top:645.00px" class="cls_007"><span class="cls_007">0.53</span></div>
+<div style="position:absolute;left:223.24px;top:645.00px" class="cls_007"><span class="cls_007">0.53</span></div>
+<div style="position:absolute;left:273.84px;top:645.00px" class="cls_007"><span class="cls_007">155</span></div>
+<div style="position:absolute;left:96.75px;top:660.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:660.00px" class="cls_007"><span class="cls_007">0.63</span></div>
+<div style="position:absolute;left:176.26px;top:660.00px" class="cls_007"><span class="cls_007">0.57</span></div>
+<div style="position:absolute;left:223.24px;top:660.00px" class="cls_007"><span class="cls_007">0.60</span></div>
+<div style="position:absolute;left:273.84px;top:660.00px" class="cls_007"><span class="cls_007">149</span></div>
+<div style="position:absolute;left:96.75px;top:675.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:675.00px" class="cls_007"><span class="cls_007">0.59</span></div>
+<div style="position:absolute;left:176.26px;top:675.00px" class="cls_007"><span class="cls_007">0.40</span></div>
+<div style="position:absolute;left:223.24px;top:675.00px" class="cls_007"><span class="cls_007">0.48</span></div>
+<div style="position:absolute;left:273.84px;top:675.00px" class="cls_007"><span class="cls_007">158</span></div>
+<div style="position:absolute;left:96.75px;top:690.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:690.00px" class="cls_007"><span class="cls_007">0.83</span></div>
+<div style="position:absolute;left:176.26px;top:690.00px" class="cls_007"><span class="cls_007">0.75</span></div>
+<div style="position:absolute;left:223.24px;top:690.00px" class="cls_007"><span class="cls_007">0.79</span></div>
+<div style="position:absolute;left:273.84px;top:690.00px" class="cls_007"><span class="cls_007">167</span></div>
+<div style="position:absolute;left:96.75px;top:705.00px" class="cls_007"><span class="cls_007">9</span></div>
+<div style="position:absolute;left:129.28px;top:705.00px" class="cls_007"><span class="cls_007">0.57</span></div>
+<div style="position:absolute;left:176.26px;top:705.00px" class="cls_007"><span class="cls_007">0.38</span></div>
+<div style="position:absolute;left:223.24px;top:705.00px" class="cls_007"><span class="cls_007">0.45</span></div>
+<div style="position:absolute;left:273.84px;top:705.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:71.46px;top:735.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:735.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:268.98px;top:735.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:750.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:750.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:201.29px;top:750.00px" class="cls_007"><span class="cls_007">0.53</span></div>
+<div style="position:absolute;left:248.27px;top:750.00px" class="cls_007"><span class="cls_007">0.54</span></div>
+<div style="position:absolute;left:295.25px;top:750.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:765.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:765.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:207.03px;top:765.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:254.01px;top:765.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:301.00px;top:765.00px" class="cls_007"><span class="cls_007">1500</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:851px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background2.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:101.00px" class="cls_006"><span class="cls_006">BernoulliNB</span></div>
+<div style="position:absolute;left:57.00px;top:116.00px" class="cls_007"><span class="cls_007">training accuracy : 0.5484862455816812</span></div>
+<div style="position:absolute;left:57.00px;top:131.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.45666666666666667</span></div>
+<div style="position:absolute;left:107.60px;top:146.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:176.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:176.00px" class="cls_007"><span class="cls_007">0.49</span></div>
+<div style="position:absolute;left:176.26px;top:176.00px" class="cls_007"><span class="cls_007">0.45</span></div>
+<div style="position:absolute;left:223.24px;top:176.00px" class="cls_007"><span class="cls_007">0.47</span></div>
+<div style="position:absolute;left:273.84px;top:176.00px" class="cls_007"><span class="cls_007">161</span></div>
+<div style="position:absolute;left:96.75px;top:191.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:191.00px" class="cls_007"><span class="cls_007">0.37</span></div>
+<div style="position:absolute;left:176.26px;top:191.00px" class="cls_007"><span class="cls_007">0.82</span></div>
+<div style="position:absolute;left:223.24px;top:191.00px" class="cls_007"><span class="cls_007">0.51</span></div>
+<div style="position:absolute;left:273.84px;top:191.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:96.75px;top:206.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:206.00px" class="cls_007"><span class="cls_007">1.00</span></div>
+<div style="position:absolute;left:176.26px;top:206.00px" class="cls_007"><span class="cls_007">0.06</span></div>
+<div style="position:absolute;left:223.24px;top:206.00px" class="cls_007"><span class="cls_007">0.11</span></div>
+<div style="position:absolute;left:273.84px;top:206.00px" class="cls_007"><span class="cls_007">104</span></div>
+<div style="position:absolute;left:96.75px;top:221.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:221.00px" class="cls_007"><span class="cls_007">0.22</span></div>
+<div style="position:absolute;left:176.26px;top:221.00px" class="cls_007"><span class="cls_007">0.13</span></div>
+<div style="position:absolute;left:223.24px;top:221.00px" class="cls_007"><span class="cls_007">0.16</span></div>
+<div style="position:absolute;left:273.84px;top:221.00px" class="cls_007"><span class="cls_007">134</span></div>
+<div style="position:absolute;left:96.75px;top:236.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:236.00px" class="cls_007"><span class="cls_007">0.37</span></div>
+<div style="position:absolute;left:176.26px;top:236.00px" class="cls_007"><span class="cls_007">0.89</span></div>
+<div style="position:absolute;left:223.24px;top:236.00px" class="cls_007"><span class="cls_007">0.53</span></div>
+<div style="position:absolute;left:273.84px;top:236.00px" class="cls_007"><span class="cls_007">164</span></div>
+<div style="position:absolute;left:96.75px;top:251.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:251.00px" class="cls_007"><span class="cls_007">0.90</span></div>
+<div style="position:absolute;left:176.26px;top:251.00px" class="cls_007"><span class="cls_007">0.12</span></div>
+<div style="position:absolute;left:223.24px;top:251.00px" class="cls_007"><span class="cls_007">0.21</span></div>
+<div style="position:absolute;left:273.84px;top:251.00px" class="cls_007"><span class="cls_007">155</span></div>
+<div style="position:absolute;left:96.75px;top:266.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:266.00px" class="cls_007"><span class="cls_007">0.51</span></div>
+<div style="position:absolute;left:176.26px;top:266.00px" class="cls_007"><span class="cls_007">0.60</span></div>
+<div style="position:absolute;left:223.24px;top:266.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:273.84px;top:266.00px" class="cls_007"><span class="cls_007">149</span></div>
+<div style="position:absolute;left:96.75px;top:281.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:281.00px" class="cls_007"><span class="cls_007">0.44</span></div>
+<div style="position:absolute;left:176.26px;top:281.00px" class="cls_007"><span class="cls_007">0.29</span></div>
+<div style="position:absolute;left:223.24px;top:281.00px" class="cls_007"><span class="cls_007">0.35</span></div>
+<div style="position:absolute;left:273.84px;top:281.00px" class="cls_007"><span class="cls_007">158</span></div>
+<div style="position:absolute;left:96.75px;top:296.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:296.00px" class="cls_007"><span class="cls_007">0.69</span></div>
+<div style="position:absolute;left:176.26px;top:296.00px" class="cls_007"><span class="cls_007">0.77</span></div>
+<div style="position:absolute;left:223.24px;top:296.00px" class="cls_007"><span class="cls_007">0.73</span></div>
+<div style="position:absolute;left:273.84px;top:296.00px" class="cls_007"><span class="cls_007">167</span></div>
+<div style="position:absolute;left:96.75px;top:311.00px" class="cls_007"><span class="cls_007">9</span></div>
+<div style="position:absolute;left:129.28px;top:311.00px" class="cls_007"><span class="cls_007">0.69</span></div>
+<div style="position:absolute;left:176.26px;top:311.00px" class="cls_007"><span class="cls_007">0.22</span></div>
+<div style="position:absolute;left:223.24px;top:311.00px" class="cls_007"><span class="cls_007">0.33</span></div>
+<div style="position:absolute;left:273.84px;top:311.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:71.46px;top:341.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:341.00px" class="cls_007"><span class="cls_007">0.46</span></div>
+<div style="position:absolute;left:268.98px;top:341.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:356.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:356.00px" class="cls_007"><span class="cls_007">0.57</span></div>
+<div style="position:absolute;left:201.29px;top:356.00px" class="cls_007"><span class="cls_007">0.44</span></div>
+<div style="position:absolute;left:248.27px;top:356.00px" class="cls_007"><span class="cls_007">0.40</span></div>
+<div style="position:absolute;left:295.25px;top:356.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:371.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:371.00px" class="cls_007"><span class="cls_007">0.56</span></div>
+<div style="position:absolute;left:207.03px;top:371.00px" class="cls_007"><span class="cls_007">0.46</span></div>
+<div style="position:absolute;left:254.01px;top:371.00px" class="cls_007"><span class="cls_007">0.41</span></div>
+<div style="position:absolute;left:301.00px;top:371.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:447.00px" class="cls_006"><span class="cls_006">DecisionTreeClassifier</span></div>
+<div style="position:absolute;left:57.00px;top:462.00px" class="cls_007"><span class="cls_007">training accuracy : 0.541263254956201</span></div>
+<div style="position:absolute;left:57.00px;top:477.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.3426666666666667</span></div>
+<div style="position:absolute;left:107.60px;top:492.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:522.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:522.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:176.26px;top:522.00px" class="cls_007"><span class="cls_007">0.44</span></div>
+<div style="position:absolute;left:223.24px;top:522.00px" class="cls_007"><span class="cls_007">0.43</span></div>
+<div style="position:absolute;left:273.84px;top:522.00px" class="cls_007"><span class="cls_007">161</span></div>
+<div style="position:absolute;left:96.75px;top:537.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:537.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:176.26px;top:537.00px" class="cls_007"><span class="cls_007">0.29</span></div>
+<div style="position:absolute;left:223.24px;top:537.00px" class="cls_007"><span class="cls_007">0.40</span></div>
+<div style="position:absolute;left:273.84px;top:537.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:96.75px;top:552.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:552.00px" class="cls_007"><span class="cls_007">0.59</span></div>
+<div style="position:absolute;left:176.26px;top:552.00px" class="cls_007"><span class="cls_007">0.29</span></div>
+<div style="position:absolute;left:223.24px;top:552.00px" class="cls_007"><span class="cls_007">0.39</span></div>
+<div style="position:absolute;left:273.84px;top:552.00px" class="cls_007"><span class="cls_007">104</span></div>
+<div style="position:absolute;left:96.75px;top:567.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:567.00px" class="cls_007"><span class="cls_007">0.12</span></div>
+<div style="position:absolute;left:176.26px;top:567.00px" class="cls_007"><span class="cls_007">0.13</span></div>
+<div style="position:absolute;left:223.24px;top:567.00px" class="cls_007"><span class="cls_007">0.13</span></div>
+<div style="position:absolute;left:273.84px;top:567.00px" class="cls_007"><span class="cls_007">134</span></div>
+<div style="position:absolute;left:96.75px;top:582.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:582.00px" class="cls_007"><span class="cls_007">0.24</span></div>
+<div style="position:absolute;left:176.26px;top:582.00px" class="cls_007"><span class="cls_007">0.77</span></div>
+<div style="position:absolute;left:223.24px;top:582.00px" class="cls_007"><span class="cls_007">0.36</span></div>
+<div style="position:absolute;left:273.84px;top:582.00px" class="cls_007"><span class="cls_007">164</span></div>
+<div style="position:absolute;left:96.75px;top:597.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:597.00px" class="cls_007"><span class="cls_007">0.35</span></div>
+<div style="position:absolute;left:176.26px;top:597.00px" class="cls_007"><span class="cls_007">0.32</span></div>
+<div style="position:absolute;left:223.24px;top:597.00px" class="cls_007"><span class="cls_007">0.33</span></div>
+<div style="position:absolute;left:273.84px;top:597.00px" class="cls_007"><span class="cls_007">155</span></div>
+<div style="position:absolute;left:96.75px;top:612.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:612.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:176.26px;top:612.00px" class="cls_007"><span class="cls_007">0.32</span></div>
+<div style="position:absolute;left:223.24px;top:612.00px" class="cls_007"><span class="cls_007">0.40</span></div>
+<div style="position:absolute;left:273.84px;top:612.00px" class="cls_007"><span class="cls_007">149</span></div>
+<div style="position:absolute;left:96.75px;top:627.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:627.00px" class="cls_007"><span class="cls_007">0.28</span></div>
+<div style="position:absolute;left:176.26px;top:627.00px" class="cls_007"><span class="cls_007">0.11</span></div>
+<div style="position:absolute;left:223.24px;top:627.00px" class="cls_007"><span class="cls_007">0.16</span></div>
+<div style="position:absolute;left:273.84px;top:627.00px" class="cls_007"><span class="cls_007">158</span></div>
+<div style="position:absolute;left:96.75px;top:642.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:642.00px" class="cls_007"><span class="cls_007">0.80</span></div>
+<div style="position:absolute;left:176.26px;top:642.00px" class="cls_007"><span class="cls_007">0.49</span></div>
+<div style="position:absolute;left:223.24px;top:642.00px" class="cls_007"><span class="cls_007">0.60</span></div>
+<div style="position:absolute;left:273.84px;top:642.00px" class="cls_007"><span class="cls_007">167</span></div>
+<div style="position:absolute;left:96.75px;top:657.00px" class="cls_007"><span class="cls_007">9</span></div>
+<div style="position:absolute;left:129.28px;top:657.00px" class="cls_007"><span class="cls_007">0.21</span></div>
+<div style="position:absolute;left:176.26px;top:657.00px" class="cls_007"><span class="cls_007">0.18</span></div>
+<div style="position:absolute;left:223.24px;top:657.00px" class="cls_007"><span class="cls_007">0.19</span></div>
+<div style="position:absolute;left:273.84px;top:657.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:71.46px;top:687.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:687.00px" class="cls_007"><span class="cls_007">0.34</span></div>
+<div style="position:absolute;left:268.98px;top:687.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:702.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:702.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:201.29px;top:702.00px" class="cls_007"><span class="cls_007">0.33</span></div>
+<div style="position:absolute;left:248.27px;top:702.00px" class="cls_007"><span class="cls_007">0.34</span></div>
+<div style="position:absolute;left:295.25px;top:702.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:717.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:717.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:207.03px;top:717.00px" class="cls_007"><span class="cls_007">0.34</span></div>
+<div style="position:absolute;left:254.01px;top:717.00px" class="cls_007"><span class="cls_007">0.34</span></div>
+<div style="position:absolute;left:301.00px;top:717.00px" class="cls_007"><span class="cls_007">1500</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:1702px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background3.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:71.00px" class="cls_006"><span class="cls_006">LogisticRegression</span></div>
+<div style="position:absolute;left:57.00px;top:86.00px" class="cls_007"><span class="cls_007">training accuracy : 0.4520516366989396</span></div>
+<div style="position:absolute;left:57.00px;top:101.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.424</span></div>
+<div style="position:absolute;left:107.60px;top:116.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:146.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:146.00px" class="cls_007"><span class="cls_007">0.32</span></div>
+<div style="position:absolute;left:176.26px;top:146.00px" class="cls_007"><span class="cls_007">0.80</span></div>
+<div style="position:absolute;left:223.24px;top:146.00px" class="cls_007"><span class="cls_007">0.46</span></div>
+<div style="position:absolute;left:273.84px;top:146.00px" class="cls_007"><span class="cls_007">161</span></div>
+<div style="position:absolute;left:96.75px;top:161.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:161.00px" class="cls_007"><span class="cls_007">0.52</span></div>
+<div style="position:absolute;left:176.26px;top:161.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:223.24px;top:161.00px" class="cls_007"><span class="cls_007">0.58</span></div>
+<div style="position:absolute;left:273.84px;top:161.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:96.75px;top:176.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:176.00px" class="cls_007"><span class="cls_007">0.00</span></div>
+<div style="position:absolute;left:176.26px;top:176.00px" class="cls_007"><span class="cls_007">0.00</span></div>
+<div style="position:absolute;left:223.24px;top:176.00px" class="cls_007"><span class="cls_007">0.00</span></div>
+<div style="position:absolute;left:273.84px;top:176.00px" class="cls_007"><span class="cls_007">104</span></div>
+<div style="position:absolute;left:96.75px;top:191.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:191.00px" class="cls_007"><span class="cls_007">0.18</span></div>
+<div style="position:absolute;left:176.26px;top:191.00px" class="cls_007"><span class="cls_007">0.57</span></div>
+<div style="position:absolute;left:223.24px;top:191.00px" class="cls_007"><span class="cls_007">0.27</span></div>
+<div style="position:absolute;left:273.84px;top:191.00px" class="cls_007"><span class="cls_007">134</span></div>
+<div style="position:absolute;left:96.75px;top:206.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:206.00px" class="cls_007"><span class="cls_007">0.86</span></div>
+<div style="position:absolute;left:176.26px;top:206.00px" class="cls_007"><span class="cls_007">0.46</span></div>
+<div style="position:absolute;left:223.24px;top:206.00px" class="cls_007"><span class="cls_007">0.60</span></div>
+<div style="position:absolute;left:273.84px;top:206.00px" class="cls_007"><span class="cls_007">164</span></div>
+<div style="position:absolute;left:96.75px;top:221.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:221.00px" class="cls_007"><span class="cls_007">0.52</span></div>
+<div style="position:absolute;left:176.26px;top:221.00px" class="cls_007"><span class="cls_007">0.30</span></div>
+<div style="position:absolute;left:223.24px;top:221.00px" class="cls_007"><span class="cls_007">0.38</span></div>
+<div style="position:absolute;left:273.84px;top:221.00px" class="cls_007"><span class="cls_007">155</span></div>
+<div style="position:absolute;left:96.75px;top:236.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:236.00px" class="cls_007"><span class="cls_007">0.57</span></div>
+<div style="position:absolute;left:176.26px;top:236.00px" class="cls_007"><span class="cls_007">0.43</span></div>
+<div style="position:absolute;left:223.24px;top:236.00px" class="cls_007"><span class="cls_007">0.49</span></div>
+<div style="position:absolute;left:273.84px;top:236.00px" class="cls_007"><span class="cls_007">149</span></div>
+<div style="position:absolute;left:96.75px;top:251.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:251.00px" class="cls_007"><span class="cls_007">0.84</span></div>
+<div style="position:absolute;left:176.26px;top:251.00px" class="cls_007"><span class="cls_007">0.13</span></div>
+<div style="position:absolute;left:223.24px;top:251.00px" class="cls_007"><span class="cls_007">0.23</span></div>
+<div style="position:absolute;left:273.84px;top:251.00px" class="cls_007"><span class="cls_007">158</span></div>
+<div style="position:absolute;left:96.75px;top:266.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:266.00px" class="cls_007"><span class="cls_007">0.77</span></div>
+<div style="position:absolute;left:176.26px;top:266.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:223.24px;top:266.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:273.84px;top:266.00px" class="cls_007"><span class="cls_007">167</span></div>
+<div style="position:absolute;left:96.75px;top:281.00px" class="cls_007"><span class="cls_007">9</span></div>
+<div style="position:absolute;left:129.28px;top:281.00px" class="cls_007"><span class="cls_007">0.80</span></div>
+<div style="position:absolute;left:176.26px;top:281.00px" class="cls_007"><span class="cls_007">0.21</span></div>
+<div style="position:absolute;left:223.24px;top:281.00px" class="cls_007"><span class="cls_007">0.33</span></div>
+<div style="position:absolute;left:273.84px;top:281.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:71.46px;top:311.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:311.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:268.98px;top:311.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:326.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:326.00px" class="cls_007"><span class="cls_007">0.54</span></div>
+<div style="position:absolute;left:201.29px;top:326.00px" class="cls_007"><span class="cls_007">0.41</span></div>
+<div style="position:absolute;left:248.27px;top:326.00px" class="cls_007"><span class="cls_007">0.40</span></div>
+<div style="position:absolute;left:295.25px;top:326.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:341.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:341.00px" class="cls_007"><span class="cls_007">0.56</span></div>
+<div style="position:absolute;left:207.03px;top:341.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:254.01px;top:341.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:301.00px;top:341.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:387.00px" class="cls_006"><span class="cls_006">SVC</span></div>
+<div style="position:absolute;left:57.00px;top:402.00px" class="cls_007"><span class="cls_007">training accuracy : 0.413093591516828</span></div>
+<div style="position:absolute;left:57.00px;top:417.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.39466666666666667</span></div>
+<div style="position:absolute;left:107.60px;top:432.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:462.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:462.00px" class="cls_007"><span class="cls_007">0.33</span></div>
+<div style="position:absolute;left:176.26px;top:462.00px" class="cls_007"><span class="cls_007">0.80</span></div>
+<div style="position:absolute;left:223.24px;top:462.00px" class="cls_007"><span class="cls_007">0.47</span></div>
+<div style="position:absolute;left:273.84px;top:462.00px" class="cls_007"><span class="cls_007">161</span></div>
+<div style="position:absolute;left:96.75px;top:477.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:477.00px" class="cls_007"><span class="cls_007">0.59</span></div>
+<div style="position:absolute;left:176.26px;top:477.00px" class="cls_007"><span class="cls_007">0.58</span></div>
+<div style="position:absolute;left:223.24px;top:477.00px" class="cls_007"><span class="cls_007">0.58</span></div>
+<div style="position:absolute;left:273.84px;top:477.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:96.75px;top:492.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:492.00px" class="cls_007"><span class="cls_007">0.00</span></div>
+<div style="position:absolute;left:176.26px;top:492.00px" class="cls_007"><span class="cls_007">0.00</span></div>
+<div style="position:absolute;left:223.24px;top:492.00px" class="cls_007"><span class="cls_007">0.00</span></div>
+<div style="position:absolute;left:273.84px;top:492.00px" class="cls_007"><span class="cls_007">104</span></div>
+<div style="position:absolute;left:96.75px;top:507.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:507.00px" class="cls_007"><span class="cls_007">0.15</span></div>
+<div style="position:absolute;left:176.26px;top:507.00px" class="cls_007"><span class="cls_007">0.63</span></div>
+<div style="position:absolute;left:223.24px;top:507.00px" class="cls_007"><span class="cls_007">0.24</span></div>
+<div style="position:absolute;left:273.84px;top:507.00px" class="cls_007"><span class="cls_007">134</span></div>
+<div style="position:absolute;left:96.75px;top:522.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:522.00px" class="cls_007"><span class="cls_007">0.92</span></div>
+<div style="position:absolute;left:176.26px;top:522.00px" class="cls_007"><span class="cls_007">0.36</span></div>
+<div style="position:absolute;left:223.24px;top:522.00px" class="cls_007"><span class="cls_007">0.52</span></div>
+<div style="position:absolute;left:273.84px;top:522.00px" class="cls_007"><span class="cls_007">164</span></div>
+<div style="position:absolute;left:96.75px;top:537.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:537.00px" class="cls_007"><span class="cls_007">0.57</span></div>
+<div style="position:absolute;left:176.26px;top:537.00px" class="cls_007"><span class="cls_007">0.26</span></div>
+<div style="position:absolute;left:223.24px;top:537.00px" class="cls_007"><span class="cls_007">0.36</span></div>
+<div style="position:absolute;left:273.84px;top:537.00px" class="cls_007"><span class="cls_007">155</span></div>
+<div style="position:absolute;left:96.75px;top:552.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:552.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:176.26px;top:552.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:223.24px;top:552.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:273.84px;top:552.00px" class="cls_007"><span class="cls_007">149</span></div>
+<div style="position:absolute;left:96.75px;top:567.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:567.00px" class="cls_007"><span class="cls_007">0.88</span></div>
+<div style="position:absolute;left:176.26px;top:567.00px" class="cls_007"><span class="cls_007">0.09</span></div>
+<div style="position:absolute;left:223.24px;top:567.00px" class="cls_007"><span class="cls_007">0.17</span></div>
+<div style="position:absolute;left:273.84px;top:567.00px" class="cls_007"><span class="cls_007">158</span></div>
+<div style="position:absolute;left:96.75px;top:582.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:582.00px" class="cls_007"><span class="cls_007">0.82</span></div>
+<div style="position:absolute;left:176.26px;top:582.00px" class="cls_007"><span class="cls_007">0.51</span></div>
+<div style="position:absolute;left:223.24px;top:582.00px" class="cls_007"><span class="cls_007">0.63</span></div>
+<div style="position:absolute;left:273.84px;top:582.00px" class="cls_007"><span class="cls_007">167</span></div>
+<div style="position:absolute;left:96.75px;top:597.00px" class="cls_007"><span class="cls_007">9</span></div>
+<div style="position:absolute;left:129.28px;top:597.00px" class="cls_007"><span class="cls_007">0.79</span></div>
+<div style="position:absolute;left:176.26px;top:597.00px" class="cls_007"><span class="cls_007">0.17</span></div>
+<div style="position:absolute;left:223.24px;top:597.00px" class="cls_007"><span class="cls_007">0.28</span></div>
+<div style="position:absolute;left:273.84px;top:597.00px" class="cls_007"><span class="cls_007">154</span></div>
+<div style="position:absolute;left:71.46px;top:627.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:627.00px" class="cls_007"><span class="cls_007">0.39</span></div>
+<div style="position:absolute;left:268.98px;top:627.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:642.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:642.00px" class="cls_007"><span class="cls_007">0.57</span></div>
+<div style="position:absolute;left:201.29px;top:642.00px" class="cls_007"><span class="cls_007">0.38</span></div>
+<div style="position:absolute;left:248.27px;top:642.00px" class="cls_007"><span class="cls_007">0.38</span></div>
+<div style="position:absolute;left:295.25px;top:642.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:657.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:657.00px" class="cls_007"><span class="cls_007">0.60</span></div>
+<div style="position:absolute;left:207.03px;top:657.00px" class="cls_007"><span class="cls_007">0.39</span></div>
+<div style="position:absolute;left:254.01px;top:657.00px" class="cls_007"><span class="cls_007">0.39</span></div>
+<div style="position:absolute;left:301.00px;top:657.00px" class="cls_007"><span class="cls_007">1500</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:2553px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background4.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:55.00px" class="cls_003"><span class="cls_003">Inferences</span></div>
+<div style="position:absolute;left:57.00px;top:90.00px" class="cls_006"><span class="cls_006">AskIndia</span></div>
+<div style="position:absolute;left:57.00px;top:105.00px" class="cls_007"><span class="cls_007">Precision is low and recall is high. Thus, I infer that I might need less data as it is</span></div>
+<div style="position:absolute;left:57.00px;top:120.00px" class="cls_007"><span class="cls_007">getting biassed towards AskIndia</span></div>
+<div style="position:absolute;left:57.00px;top:151.00px" class="cls_006"><span class="cls_006">Business/Finance</span></div>
+<div style="position:absolute;left:57.00px;top:166.00px" class="cls_007"><span class="cls_007">Both precision and recall is low hence there is no bias towards or against this class</span></div>
+<div style="position:absolute;left:57.00px;top:197.00px" class="cls_006"><span class="cls_006">Food</span></div>
+<div style="position:absolute;left:57.00px;top:212.00px" class="cls_007"><span class="cls_007">Precision is high but recall is very low so we need much more data to ensure our</span></div>
+<div style="position:absolute;left:57.00px;top:227.00px" class="cls_007"><span class="cls_007">model recognises the posts that need to be tagged as food well enough</span></div>
+<div style="position:absolute;left:57.00px;top:258.00px" class="cls_006"><span class="cls_006">Non-Political</span></div>
+<div style="position:absolute;left:57.00px;top:273.00px" class="cls_007"><span class="cls_007">Both precision and recall are low.</span></div>
+<div style="position:absolute;left:57.00px;top:288.00px" class="cls_007"><span class="cls_007">On further analysis of the data I realised that there is no clear definition for a post</span></div>
+<div style="position:absolute;left:57.00px;top:303.00px" class="cls_007"><span class="cls_007">to be non-political and any post that doesn’t fall under politics can be classified as</span></div>
+<div style="position:absolute;left:57.00px;top:318.00px" class="cls_007"><span class="cls_007">non-political. Thus this class overlaps a lot with other classes, which is leading to</span></div>
+<div style="position:absolute;left:57.00px;top:333.00px" class="cls_007"><span class="cls_007">drop in accuracy.</span></div>
+<div style="position:absolute;left:57.00px;top:348.00px" class="cls_007"><span class="cls_007">My judgment suggests dropping this class if we want to ensure more accurate</span></div>
+<div style="position:absolute;left:57.00px;top:363.00px" class="cls_007"><span class="cls_007">labelling.</span></div>
+<div style="position:absolute;left:57.00px;top:394.00px" class="cls_006"><span class="cls_006">Photography</span></div>
+<div style="position:absolute;left:57.00px;top:409.00px" class="cls_007"><span class="cls_007">Precision is low and recall is high/ Model is a little biassed towards marking a post</span></div>
+<div style="position:absolute;left:57.00px;top:424.00px" class="cls_007"><span class="cls_007">as photography. Thus I would reduced the training samples fro photography.</span></div>
+<div style="position:absolute;left:57.00px;top:455.00px" class="cls_006"><span class="cls_006">Policy/Economy</span></div>
+<div style="position:absolute;left:57.00px;top:470.00px" class="cls_007"><span class="cls_007">Both precision and recall is low hence there is no bias towards or against this class</span></div>
+<div style="position:absolute;left:57.00px;top:501.00px" class="cls_006"><span class="cls_006">Politics</span></div>
+<div style="position:absolute;left:57.00px;top:516.00px" class="cls_007"><span class="cls_007">Both precision and recall is low hence there is no bias towards or against this class</span></div>
+<div style="position:absolute;left:57.00px;top:547.00px" class="cls_006"><span class="cls_006">Science/Technology</span></div>
+<div style="position:absolute;left:57.00px;top:562.00px" class="cls_007"><span class="cls_007">Precision is high but recall is low so we need more data to ensure our model</span></div>
+<div style="position:absolute;left:57.00px;top:577.00px" class="cls_007"><span class="cls_007">recognises the posts that need to be tagged as Science/Technology well enough</span></div>
+<div style="position:absolute;left:57.00px;top:608.00px" class="cls_006"><span class="cls_006">Sports</span></div>
+<div style="position:absolute;left:57.00px;top:623.00px" class="cls_007"><span class="cls_007">Both precision and recall are high as compared to other classes hence we don’t</span></div>
+<div style="position:absolute;left:57.00px;top:638.00px" class="cls_007"><span class="cls_007">need to change the percentage of sports samples.</span></div>
+<div style="position:absolute;left:57.00px;top:669.00px" class="cls_006"><span class="cls_006">[R]eddiquette</span></div>
+<div style="position:absolute;left:57.00px;top:684.00px" class="cls_007"><span class="cls_007">Precision is high and recall is low hence more data is required.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:3404px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background5.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:53.00px" class="cls_002"><span class="cls_002">Model V2</span></div>
+<div style="position:absolute;left:57.00px;top:106.00px" class="cls_003"><span class="cls_003">Input Data:</span></div>
+<div style="position:absolute;left:61.00px;top:146.00px" class="cls_004"><span class="cls_004">Class</span></div>
+<div style="position:absolute;left:201.00px;top:146.00px" class="cls_004"><span class="cls_004">Data</span></div>
+<div style="position:absolute;left:61.00px;top:168.00px" class="cls_004"><span class="cls_004">AskIndia</span></div>
+<div style="position:absolute;left:232.32px;top:168.52px" class="cls_005"><span class="cls_005">3000</span></div>
+<div style="position:absolute;left:61.00px;top:191.00px" class="cls_004"><span class="cls_004">Business/Finance</span></div>
+<div style="position:absolute;left:232.32px;top:191.14px" class="cls_005"><span class="cls_005">4000</span></div>
+<div style="position:absolute;left:61.00px;top:214.00px" class="cls_004"><span class="cls_004">Food</span></div>
+<div style="position:absolute;left:232.32px;top:213.89px" class="cls_005"><span class="cls_005">1936</span></div>
+<div style="position:absolute;left:61.00px;top:237.00px" class="cls_004"><span class="cls_004">Photography</span></div>
+<div style="position:absolute;left:232.32px;top:236.64px" class="cls_005"><span class="cls_005">2352</span></div>
+<div style="position:absolute;left:61.00px;top:259.00px" class="cls_004"><span class="cls_004">Policy/Economy</span></div>
+<div style="position:absolute;left:232.32px;top:259.39px" class="cls_005"><span class="cls_005">4000</span></div>
+<div style="position:absolute;left:61.00px;top:282.00px" class="cls_004"><span class="cls_004">Politics</span></div>
+<div style="position:absolute;left:232.32px;top:282.14px" class="cls_005"><span class="cls_005">4000</span></div>
+<div style="position:absolute;left:61.00px;top:305.00px" class="cls_004"><span class="cls_004">Science/Technology</span></div>
+<div style="position:absolute;left:232.32px;top:304.89px" class="cls_005"><span class="cls_005">5000</span></div>
+<div style="position:absolute;left:61.00px;top:328.00px" class="cls_004"><span class="cls_004">Sports</span></div>
+<div style="position:absolute;left:232.32px;top:327.64px" class="cls_005"><span class="cls_005">3764</span></div>
+<div style="position:absolute;left:61.00px;top:350.00px" class="cls_004"><span class="cls_004">[R]eddiquette</span></div>
+<div style="position:absolute;left:232.32px;top:350.39px" class="cls_005"><span class="cls_005">4614</span></div>
+<div style="position:absolute;left:61.00px;top:373.00px" class="cls_004"><span class="cls_004">TOTAL</span></div>
+<div style="position:absolute;left:226.76px;top:373.14px" class="cls_005"><span class="cls_005">32666</span></div>
+<div style="position:absolute;left:57.00px;top:407.00px" class="cls_003"><span class="cls_003">Changes Made in V2:</span></div>
+<div style="position:absolute;left:57.00px;top:441.00px" class="cls_007"><span class="cls_007">1.  Ratios of different classes in the data set fixed.</span></div>
+<div style="position:absolute;left:57.00px;top:456.00px" class="cls_007"><span class="cls_007">2.  Non-political dropped.</span></div>
+<div style="position:absolute;left:57.00px;top:471.00px" class="cls_007"><span class="cls_007">3.  Focussed on SVM as the main model after tuning all models properly.</span></div>
+<div style="position:absolute;left:57.00px;top:486.00px" class="cls_007"><span class="cls_007">4.  Since SVM was underfitting the data, I played around with the hyper-</span></div>
+<div style="position:absolute;left:78.00px;top:501.00px" class="cls_007"><span class="cls_007">parameters a little only to realise that the model was now overfitting. Hence to</span></div>
+<div style="position:absolute;left:78.00px;top:516.00px" class="cls_007"><span class="cls_007">avoid overfitting I scraped more data than the previous version.</span></div>
+<div style="position:absolute;left:57.00px;top:531.00px" class="cls_007"><span class="cls_007">5.  Tuned SVM properly to maintain a balance between overfitting and under-</span></div>
+<div style="position:absolute;left:78.00px;top:546.00px" class="cls_007"><span class="cls_007">fitting.</span></div>
+<div style="position:absolute;left:57.00px;top:561.00px" class="cls_007"><span class="cls_007">6.  Added a cleanup function that I had missed out earlier.</span></div>
+<div style="position:absolute;left:57.00px;top:591.00px" class="cls_007"><span class="cls_007">As a result there was a drastic increase in the accuracy of all the models. There</span></div>
+<div style="position:absolute;left:57.00px;top:606.00px" class="cls_007"><span class="cls_007">was an improvement in overfitting, (which can’t be shown by the stats as Model V1</span></div>
+<div style="position:absolute;left:57.00px;top:621.00px" class="cls_007"><span class="cls_007">doesn’t overfit but tuning of m=parameters had caused the models to overfit a lot).</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:4255px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background6.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:55.00px" class="cls_003"><span class="cls_003">Classification report</span></div>
+<div style="position:absolute;left:57.00px;top:90.00px" class="cls_006"><span class="cls_006">BernoulliNB</span></div>
+<div style="position:absolute;left:57.00px;top:105.00px" class="cls_007"><span class="cls_007">training accuracy : 0.6240775203747674</span></div>
+<div style="position:absolute;left:57.00px;top:120.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.538</span></div>
+<div style="position:absolute;left:107.60px;top:135.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:165.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:165.00px" class="cls_007"><span class="cls_007">0.43</span></div>
+<div style="position:absolute;left:176.26px;top:165.00px" class="cls_007"><span class="cls_007">0.29</span></div>
+<div style="position:absolute;left:223.24px;top:165.00px" class="cls_007"><span class="cls_007">0.34</span></div>
+<div style="position:absolute;left:273.84px;top:165.00px" class="cls_007"><span class="cls_007">129</span></div>
+<div style="position:absolute;left:96.75px;top:180.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:180.00px" class="cls_007"><span class="cls_007">0.37</span></div>
+<div style="position:absolute;left:176.26px;top:180.00px" class="cls_007"><span class="cls_007">0.79</span></div>
+<div style="position:absolute;left:223.24px;top:180.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:273.84px;top:180.00px" class="cls_007"><span class="cls_007">168</span></div>
+<div style="position:absolute;left:96.75px;top:195.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:195.00px" class="cls_007"><span class="cls_007">0.86</span></div>
+<div style="position:absolute;left:176.26px;top:195.00px" class="cls_007"><span class="cls_007">0.15</span></div>
+<div style="position:absolute;left:223.24px;top:195.00px" class="cls_007"><span class="cls_007">0.26</span></div>
+<div style="position:absolute;left:277.45px;top:195.00px" class="cls_007"><span class="cls_007">80</span></div>
+<div style="position:absolute;left:96.75px;top:210.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:210.00px" class="cls_007"><span class="cls_007">0.84</span></div>
+<div style="position:absolute;left:176.26px;top:210.00px" class="cls_007"><span class="cls_007">0.49</span></div>
+<div style="position:absolute;left:223.24px;top:210.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:273.84px;top:210.00px" class="cls_007"><span class="cls_007">125</span></div>
+<div style="position:absolute;left:96.75px;top:225.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:225.00px" class="cls_007"><span class="cls_007">0.74</span></div>
+<div style="position:absolute;left:176.26px;top:225.00px" class="cls_007"><span class="cls_007">0.30</span></div>
+<div style="position:absolute;left:223.24px;top:225.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:273.84px;top:225.00px" class="cls_007"><span class="cls_007">195</span></div>
+<div style="position:absolute;left:96.75px;top:240.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:240.00px" class="cls_007"><span class="cls_007">0.68</span></div>
+<div style="position:absolute;left:176.26px;top:240.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:223.24px;top:240.00px" class="cls_007"><span class="cls_007">0.67</span></div>
+<div style="position:absolute;left:273.84px;top:240.00px" class="cls_007"><span class="cls_007">192</span></div>
+<div style="position:absolute;left:96.75px;top:255.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:255.00px" class="cls_007"><span class="cls_007">0.45</span></div>
+<div style="position:absolute;left:176.26px;top:255.00px" class="cls_007"><span class="cls_007">0.71</span></div>
+<div style="position:absolute;left:223.24px;top:255.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:273.84px;top:255.00px" class="cls_007"><span class="cls_007">240</span></div>
+<div style="position:absolute;left:96.75px;top:270.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:270.00px" class="cls_007"><span class="cls_007">0.75</span></div>
+<div style="position:absolute;left:176.26px;top:270.00px" class="cls_007"><span class="cls_007">0.88</span></div>
+<div style="position:absolute;left:223.24px;top:270.00px" class="cls_007"><span class="cls_007">0.81</span></div>
+<div style="position:absolute;left:273.84px;top:270.00px" class="cls_007"><span class="cls_007">169</span></div>
+<div style="position:absolute;left:96.75px;top:285.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:285.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:176.26px;top:285.00px" class="cls_007"><span class="cls_007">0.30</span></div>
+<div style="position:absolute;left:223.24px;top:285.00px" class="cls_007"><span class="cls_007">0.38</span></div>
+<div style="position:absolute;left:273.84px;top:285.00px" class="cls_007"><span class="cls_007">202</span></div>
+<div style="position:absolute;left:71.46px;top:315.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:315.00px" class="cls_007"><span class="cls_007">0.54</span></div>
+<div style="position:absolute;left:268.98px;top:315.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:330.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:330.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:201.29px;top:330.00px" class="cls_007"><span class="cls_007">0.51</span></div>
+<div style="position:absolute;left:248.27px;top:330.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:295.25px;top:330.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:345.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:345.00px" class="cls_007"><span class="cls_007">0.60</span></div>
+<div style="position:absolute;left:207.03px;top:345.00px" class="cls_007"><span class="cls_007">0.54</span></div>
+<div style="position:absolute;left:254.01px;top:345.00px" class="cls_007"><span class="cls_007">0.52</span></div>
+<div style="position:absolute;left:301.00px;top:345.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:393.00px" class="cls_006"><span class="cls_006">RandomForestClassifier</span></div>
+<div style="position:absolute;left:57.00px;top:408.00px" class="cls_007"><span class="cls_007">training accuracy : 0.5238079958929602</span></div>
+<div style="position:absolute;left:57.00px;top:423.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.4246666666666667</span></div>
+<div style="position:absolute;left:107.60px;top:438.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:468.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:468.00px" class="cls_007"><span class="cls_007">0.37</span></div>
+<div style="position:absolute;left:176.26px;top:468.00px" class="cls_007"><span class="cls_007">0.35</span></div>
+<div style="position:absolute;left:223.24px;top:468.00px" class="cls_007"><span class="cls_007">0.36</span></div>
+<div style="position:absolute;left:273.84px;top:468.00px" class="cls_007"><span class="cls_007">129</span></div>
+<div style="position:absolute;left:96.75px;top:483.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:483.00px" class="cls_007"><span class="cls_007">0.65</span></div>
+<div style="position:absolute;left:176.26px;top:483.00px" class="cls_007"><span class="cls_007">0.36</span></div>
+<div style="position:absolute;left:223.24px;top:483.00px" class="cls_007"><span class="cls_007">0.46</span></div>
+<div style="position:absolute;left:273.84px;top:483.00px" class="cls_007"><span class="cls_007">168</span></div>
+<div style="position:absolute;left:96.75px;top:498.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:498.00px" class="cls_007"><span class="cls_007">0.73</span></div>
+<div style="position:absolute;left:176.26px;top:498.00px" class="cls_007"><span class="cls_007">0.10</span></div>
+<div style="position:absolute;left:223.24px;top:498.00px" class="cls_007"><span class="cls_007">0.18</span></div>
+<div style="position:absolute;left:277.45px;top:498.00px" class="cls_007"><span class="cls_007">80</span></div>
+<div style="position:absolute;left:96.75px;top:513.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:513.00px" class="cls_007"><span class="cls_007">0.76</span></div>
+<div style="position:absolute;left:176.26px;top:513.00px" class="cls_007"><span class="cls_007">0.10</span></div>
+<div style="position:absolute;left:223.24px;top:513.00px" class="cls_007"><span class="cls_007">0.18</span></div>
+<div style="position:absolute;left:273.84px;top:513.00px" class="cls_007"><span class="cls_007">125</span></div>
+<div style="position:absolute;left:96.75px;top:528.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:528.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:176.26px;top:528.00px" class="cls_007"><span class="cls_007">0.37</span></div>
+<div style="position:absolute;left:223.24px;top:528.00px" class="cls_007"><span class="cls_007">0.47</span></div>
+<div style="position:absolute;left:273.84px;top:528.00px" class="cls_007"><span class="cls_007">195</span></div>
+<div style="position:absolute;left:96.75px;top:543.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:543.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:176.26px;top:543.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:223.24px;top:543.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:273.84px;top:543.00px" class="cls_007"><span class="cls_007">192</span></div>
+<div style="position:absolute;left:96.75px;top:558.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:558.00px" class="cls_007"><span class="cls_007">0.26</span></div>
+<div style="position:absolute;left:176.26px;top:558.00px" class="cls_007"><span class="cls_007">0.78</span></div>
+<div style="position:absolute;left:223.24px;top:558.00px" class="cls_007"><span class="cls_007">0.39</span></div>
+<div style="position:absolute;left:273.84px;top:558.00px" class="cls_007"><span class="cls_007">240</span></div>
+<div style="position:absolute;left:96.75px;top:573.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:573.00px" class="cls_007"><span class="cls_007">0.78</span></div>
+<div style="position:absolute;left:176.26px;top:573.00px" class="cls_007"><span class="cls_007">0.68</span></div>
+<div style="position:absolute;left:223.24px;top:573.00px" class="cls_007"><span class="cls_007">0.73</span></div>
+<div style="position:absolute;left:273.84px;top:573.00px" class="cls_007"><span class="cls_007">169</span></div>
+<div style="position:absolute;left:96.75px;top:588.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:588.00px" class="cls_007"><span class="cls_007">0.41</span></div>
+<div style="position:absolute;left:176.26px;top:588.00px" class="cls_007"><span class="cls_007">0.28</span></div>
+<div style="position:absolute;left:223.24px;top:588.00px" class="cls_007"><span class="cls_007">0.33</span></div>
+<div style="position:absolute;left:273.84px;top:588.00px" class="cls_007"><span class="cls_007">202</span></div>
+<div style="position:absolute;left:71.46px;top:618.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:618.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:268.98px;top:618.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:633.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:633.00px" class="cls_007"><span class="cls_007">0.58</span></div>
+<div style="position:absolute;left:201.29px;top:633.00px" class="cls_007"><span class="cls_007">0.38</span></div>
+<div style="position:absolute;left:248.27px;top:633.00px" class="cls_007"><span class="cls_007">0.40</span></div>
+<div style="position:absolute;left:295.25px;top:633.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:648.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:648.00px" class="cls_007"><span class="cls_007">0.55</span></div>
+<div style="position:absolute;left:207.03px;top:648.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:254.01px;top:648.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:301.00px;top:648.00px" class="cls_007"><span class="cls_007">1500</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5106px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background7.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:56.00px" class="cls_006"><span class="cls_006">LogisticRegression</span></div>
+<div style="position:absolute;left:57.00px;top:71.00px" class="cls_007"><span class="cls_007">training accuracy : 0.6754796894051209</span></div>
+<div style="position:absolute;left:57.00px;top:86.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.6173333333333333</span></div>
+<div style="position:absolute;left:107.60px;top:101.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:131.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:131.00px" class="cls_007"><span class="cls_007">0.43</span></div>
+<div style="position:absolute;left:176.26px;top:131.00px" class="cls_007"><span class="cls_007">0.49</span></div>
+<div style="position:absolute;left:223.24px;top:131.00px" class="cls_007"><span class="cls_007">0.45</span></div>
+<div style="position:absolute;left:273.84px;top:131.00px" class="cls_007"><span class="cls_007">129</span></div>
+<div style="position:absolute;left:96.75px;top:146.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:146.00px" class="cls_007"><span class="cls_007">0.65</span></div>
+<div style="position:absolute;left:176.26px;top:146.00px" class="cls_007"><span class="cls_007">0.63</span></div>
+<div style="position:absolute;left:223.24px;top:146.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:273.84px;top:146.00px" class="cls_007"><span class="cls_007">168</span></div>
+<div style="position:absolute;left:96.75px;top:161.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:161.00px" class="cls_007"><span class="cls_007">0.81</span></div>
+<div style="position:absolute;left:176.26px;top:161.00px" class="cls_007"><span class="cls_007">0.36</span></div>
+<div style="position:absolute;left:223.24px;top:161.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:277.45px;top:161.00px" class="cls_007"><span class="cls_007">80</span></div>
+<div style="position:absolute;left:96.75px;top:176.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:176.00px" class="cls_007"><span class="cls_007">0.83</span></div>
+<div style="position:absolute;left:176.26px;top:176.00px" class="cls_007"><span class="cls_007">0.56</span></div>
+<div style="position:absolute;left:223.24px;top:176.00px" class="cls_007"><span class="cls_007">0.67</span></div>
+<div style="position:absolute;left:273.84px;top:176.00px" class="cls_007"><span class="cls_007">125</span></div>
+<div style="position:absolute;left:96.75px;top:191.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:191.00px" class="cls_007"><span class="cls_007">0.68</span></div>
+<div style="position:absolute;left:176.26px;top:191.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:223.24px;top:191.00px" class="cls_007"><span class="cls_007">0.65</span></div>
+<div style="position:absolute;left:273.84px;top:191.00px" class="cls_007"><span class="cls_007">195</span></div>
+<div style="position:absolute;left:96.75px;top:206.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:206.00px" class="cls_007"><span class="cls_007">0.71</span></div>
+<div style="position:absolute;left:176.26px;top:206.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:223.24px;top:206.00px" class="cls_007"><span class="cls_007">0.67</span></div>
+<div style="position:absolute;left:273.84px;top:206.00px" class="cls_007"><span class="cls_007">192</span></div>
+<div style="position:absolute;left:96.75px;top:221.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:221.00px" class="cls_007"><span class="cls_007">0.56</span></div>
+<div style="position:absolute;left:176.26px;top:221.00px" class="cls_007"><span class="cls_007">0.77</span></div>
+<div style="position:absolute;left:223.24px;top:221.00px" class="cls_007"><span class="cls_007">0.65</span></div>
+<div style="position:absolute;left:273.84px;top:221.00px" class="cls_007"><span class="cls_007">240</span></div>
+<div style="position:absolute;left:96.75px;top:236.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:236.00px" class="cls_007"><span class="cls_007">0.87</span></div>
+<div style="position:absolute;left:176.26px;top:236.00px" class="cls_007"><span class="cls_007">0.77</span></div>
+<div style="position:absolute;left:223.24px;top:236.00px" class="cls_007"><span class="cls_007">0.82</span></div>
+<div style="position:absolute;left:273.84px;top:236.00px" class="cls_007"><span class="cls_007">169</span></div>
+<div style="position:absolute;left:96.75px;top:251.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:251.00px" class="cls_007"><span class="cls_007">0.42</span></div>
+<div style="position:absolute;left:176.26px;top:251.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:223.24px;top:251.00px" class="cls_007"><span class="cls_007">0.46</span></div>
+<div style="position:absolute;left:273.84px;top:251.00px" class="cls_007"><span class="cls_007">202</span></div>
+<div style="position:absolute;left:71.46px;top:281.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:281.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:268.98px;top:281.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:296.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:296.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:201.29px;top:296.00px" class="cls_007"><span class="cls_007">0.59</span></div>
+<div style="position:absolute;left:248.27px;top:296.00px" class="cls_007"><span class="cls_007">0.61</span></div>
+<div style="position:absolute;left:295.25px;top:296.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:311.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:311.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:207.03px;top:311.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:254.01px;top:311.00px" class="cls_007"><span class="cls_007">0.62</span></div>
+<div style="position:absolute;left:301.00px;top:311.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:343.00px" class="cls_006"><span class="cls_006">SVC</span></div>
+<div style="position:absolute;left:57.00px;top:358.00px" class="cls_007"><span class="cls_007">training accuracy : 0.7635243534621061</span></div>
+<div style="position:absolute;left:57.00px;top:373.00px" class="cls_007"><span class="cls_007">testing accuracy : 0.66</span></div>
+<div style="position:absolute;left:107.60px;top:388.00px" class="cls_007"><span class="cls_007">precision    recall  f1-score   support</span></div>
+<div style="position:absolute;left:96.75px;top:418.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:129.28px;top:418.00px" class="cls_007"><span class="cls_007">0.45</span></div>
+<div style="position:absolute;left:176.26px;top:418.00px" class="cls_007"><span class="cls_007">0.56</span></div>
+<div style="position:absolute;left:223.24px;top:418.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:273.84px;top:418.00px" class="cls_007"><span class="cls_007">129</span></div>
+<div style="position:absolute;left:96.75px;top:433.00px" class="cls_007"><span class="cls_007">1</span></div>
+<div style="position:absolute;left:129.28px;top:433.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:176.26px;top:433.00px" class="cls_007"><span class="cls_007">0.67</span></div>
+<div style="position:absolute;left:223.24px;top:433.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:273.84px;top:433.00px" class="cls_007"><span class="cls_007">168</span></div>
+<div style="position:absolute;left:96.75px;top:448.00px" class="cls_007"><span class="cls_007">2</span></div>
+<div style="position:absolute;left:129.28px;top:448.00px" class="cls_007"><span class="cls_007">0.80</span></div>
+<div style="position:absolute;left:176.26px;top:448.00px" class="cls_007"><span class="cls_007">0.59</span></div>
+<div style="position:absolute;left:223.24px;top:448.00px" class="cls_007"><span class="cls_007">0.68</span></div>
+<div style="position:absolute;left:277.45px;top:448.00px" class="cls_007"><span class="cls_007">80</span></div>
+<div style="position:absolute;left:96.75px;top:463.00px" class="cls_007"><span class="cls_007">3</span></div>
+<div style="position:absolute;left:129.28px;top:463.00px" class="cls_007"><span class="cls_007">0.74</span></div>
+<div style="position:absolute;left:176.26px;top:463.00px" class="cls_007"><span class="cls_007">0.72</span></div>
+<div style="position:absolute;left:223.24px;top:463.00px" class="cls_007"><span class="cls_007">0.73</span></div>
+<div style="position:absolute;left:273.84px;top:463.00px" class="cls_007"><span class="cls_007">125</span></div>
+<div style="position:absolute;left:96.75px;top:478.00px" class="cls_007"><span class="cls_007">4</span></div>
+<div style="position:absolute;left:129.28px;top:478.00px" class="cls_007"><span class="cls_007">0.68</span></div>
+<div style="position:absolute;left:176.26px;top:478.00px" class="cls_007"><span class="cls_007">0.61</span></div>
+<div style="position:absolute;left:223.24px;top:478.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:273.84px;top:478.00px" class="cls_007"><span class="cls_007">195</span></div>
+<div style="position:absolute;left:96.75px;top:493.00px" class="cls_007"><span class="cls_007">5</span></div>
+<div style="position:absolute;left:129.28px;top:493.00px" class="cls_007"><span class="cls_007">0.70</span></div>
+<div style="position:absolute;left:176.26px;top:493.00px" class="cls_007"><span class="cls_007">0.71</span></div>
+<div style="position:absolute;left:223.24px;top:493.00px" class="cls_007"><span class="cls_007">0.70</span></div>
+<div style="position:absolute;left:273.84px;top:493.00px" class="cls_007"><span class="cls_007">192</span></div>
+<div style="position:absolute;left:96.75px;top:508.00px" class="cls_007"><span class="cls_007">6</span></div>
+<div style="position:absolute;left:129.28px;top:508.00px" class="cls_007"><span class="cls_007">0.64</span></div>
+<div style="position:absolute;left:176.26px;top:508.00px" class="cls_007"><span class="cls_007">0.74</span></div>
+<div style="position:absolute;left:223.24px;top:508.00px" class="cls_007"><span class="cls_007">0.69</span></div>
+<div style="position:absolute;left:273.84px;top:508.00px" class="cls_007"><span class="cls_007">240</span></div>
+<div style="position:absolute;left:96.75px;top:523.00px" class="cls_007"><span class="cls_007">7</span></div>
+<div style="position:absolute;left:129.28px;top:523.00px" class="cls_007"><span class="cls_007">0.85</span></div>
+<div style="position:absolute;left:176.26px;top:523.00px" class="cls_007"><span class="cls_007">0.83</span></div>
+<div style="position:absolute;left:223.24px;top:523.00px" class="cls_007"><span class="cls_007">0.84</span></div>
+<div style="position:absolute;left:273.84px;top:523.00px" class="cls_007"><span class="cls_007">169</span></div>
+<div style="position:absolute;left:96.75px;top:538.00px" class="cls_007"><span class="cls_007">8</span></div>
+<div style="position:absolute;left:129.28px;top:538.00px" class="cls_007"><span class="cls_007">0.53</span></div>
+<div style="position:absolute;left:176.26px;top:538.00px" class="cls_007"><span class="cls_007">0.47</span></div>
+<div style="position:absolute;left:223.24px;top:538.00px" class="cls_007"><span class="cls_007">0.50</span></div>
+<div style="position:absolute;left:273.84px;top:538.00px" class="cls_007"><span class="cls_007">202</span></div>
+<div style="position:absolute;left:71.46px;top:568.00px" class="cls_007"><span class="cls_007">accuracy</span></div>
+<div style="position:absolute;left:222.00px;top:568.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:268.98px;top:568.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:67.84px;top:583.00px" class="cls_007"><span class="cls_007">macro avg</span></div>
+<div style="position:absolute;left:154.30px;top:583.00px" class="cls_007"><span class="cls_007">0.67</span></div>
+<div style="position:absolute;left:201.29px;top:583.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:248.27px;top:583.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:295.25px;top:583.00px" class="cls_007"><span class="cls_007">1500</span></div>
+<div style="position:absolute;left:57.00px;top:598.00px" class="cls_007"><span class="cls_007">weighted avg</span></div>
+<div style="position:absolute;left:160.05px;top:598.00px" class="cls_007"><span class="cls_007">0.67</span></div>
+<div style="position:absolute;left:207.03px;top:598.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:254.01px;top:598.00px" class="cls_007"><span class="cls_007">0.66</span></div>
+<div style="position:absolute;left:301.00px;top:598.00px" class="cls_007"><span class="cls_007">1500</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5957px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="static/background8.jpg" width=595 height=841></div>
+<div style="position:absolute;left:57.00px;top:55.00px" class="cls_003"><span class="cls_003">Inferences</span></div>
+<div style="position:absolute;left:57.00px;top:89.00px" class="cls_007"><span class="cls_007">Wrong Answers :</span></div>
+<div style="position:absolute;left:57.00px;top:119.00px" class="cls_008"><span class="cls_008"> </span><A HREF="https://www.reddit.com/r/india/comments/cfx2rb/restaurant_owners_of_rindia_who_have_tied_up_with/">https://www.reddit.com/r/india/comments/cfx2rb/</A> </div>
+<div style="position:absolute;left:57.00px;top:134.00px" class="cls_008"><span class="cls_008"> </span><A HREF="https://www.reddit.com/r/india/comments/cfx2rb/restaurant_owners_of_rindia_who_have_tied_up_with/">restaurant_owners_of_rindia_who_have_tied_up_with/</A> </div>
+<div style="position:absolute;left:57.00px;top:164.00px" class="cls_007"><span class="cls_007">Prediction : Food</span></div>
+<div style="position:absolute;left:57.00px;top:179.00px" class="cls_007"><span class="cls_007">Real : AskIndia</span></div>
+</div>
+
+</body>
+</html>
