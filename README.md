@@ -8,7 +8,7 @@ app.py() is the main python file that runs the web app.
 templates folder contains all the html files.   
 static folder contains the images that have been uploaded on the website.   
 My machine learning model is saved as model.joblib   
-All the training data is in posts.bson and testing data is in train.json   
+All the training data is in posts.bson and testing data is in train.bson. These are the mongodb dumps of my data.   
 
 **Commands to run your project:**   
 Visit the website at: https://flair-detector-oshhh.herokuapp.com/    
