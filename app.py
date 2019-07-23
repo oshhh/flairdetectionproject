@@ -28,6 +28,10 @@ def get_dataanalysis():
 def get_model():
     return render_template('model.html')
 
+@app.route('/modelv2', methods=['GET'])
+def get_model():
+    return render_template('modelv2.html')
+
 
 def cleanup(text):
     text = text.lower()
