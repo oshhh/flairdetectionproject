@@ -7,6 +7,7 @@
 app.py() is the main python file that runs the web app.    
 templates folder contains all the html files.   
 static folder contains the images that have been uploaded on the website.   
+My mchine learning model has been made using Flair Detection.ipynb    
 My machine learning model is saved as model.joblib   
 All the training data is in posts.bson and testing data is in train.bson. These are the mongodb dumps of my data.   
 
