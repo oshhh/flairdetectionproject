@@ -29,7 +29,7 @@ def get_model():
     return render_template('model.html')
 
 @app.route('/modelv2', methods=['GET'])
-def get_model():
+def get_model_v2():
     return render_template('modelv2.html')
 
 
