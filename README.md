@@ -27,4 +27,4 @@ pandas
 numpy   
 
 **The approach you followed:**   
-In order to go through the approach I followed, please visit : https://flair-detector-oshhh.herokuapp.com/model   
+In order to go through the approach I followed, please visit : https://flair-detector-oshhh.herokuapp.com/modelv2   
